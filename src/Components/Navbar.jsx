@@ -9,7 +9,7 @@ const Navbar = ({ setCategory }) => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav" style={{cursor:"pointer"}}>
                         <li className="nav-item">
                             <div className="nav-link" onClick={() => setCategory("technology")}>Technology</div>
                         </li>
